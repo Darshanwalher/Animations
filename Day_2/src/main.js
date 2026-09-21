@@ -1,11 +1,14 @@
 import { gsap } from "gsap";
 import "./index.css";
 
+gsap.set('.box',{
+    x: -300,
+})
+
 gsap.to('.box',{
-    x: 1000,
+    x: 1550,
     duration: 3,
     delay: 0.2,
     ease: "expo.inOut",
-    repeat: 1,
-    yoyo: true
+    repeat: -1,
 })
