@@ -2,6 +2,7 @@ import { gsap } from "gsap";
 import "./index.css";
 
 gsap.set('.box',{
+    overflow: 'hidden',
     x: -300,
 })
 
