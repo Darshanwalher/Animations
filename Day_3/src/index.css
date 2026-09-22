@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+     background-color: black;
+  color: white;
+}
+
+
+.box1,.box2,.box3,.box4{
+  width: 200px;
+  height: 200px;
+  margin: 2rem;
+}
+
+.box1{
+  background-color: red;
+}
+
+.box2{
+  background-color: blue;
+}
+
+.box3{
+  background-color: green;
+}
+
+.box4{
+  background-color: yellow;
+}
