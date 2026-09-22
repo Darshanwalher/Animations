@@ -5,8 +5,11 @@ import "./index.css";
 
 gsap.to('.box',{
     x: 500,
-    duration: 3,
+    duration: 1.4,
     delay: 0.2,
-    ease: "power1.inOut",
-    stagger: -0.2
+    ease: "power4.Out",
+    stagger: {
+        each: 0.1,
+        from: "edges"
+    }
 })
