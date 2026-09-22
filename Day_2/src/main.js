@@ -3,13 +3,13 @@ import "./index.css";
 
 
 
-gsap.to('.box',{
-    x: 500,
-    duration: 1.4,
-    delay: 0.2,
-    ease: "power4.Out",
+gsap.from("h1 span",{
+    yPercent: 100,
+    opacity: 0,
+    duration: 1.5,
+    ease: "expo.out",
     stagger: {
-        each: 0.1,
+        each: 0.08,
         from: "edges"
-    }
+    },
 })
