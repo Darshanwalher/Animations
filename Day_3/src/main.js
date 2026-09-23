@@ -16,13 +16,12 @@ tl.to(".box1",{
     x: 1200,
     duration: 1.3,
     ease: "power4.out",
-}).to(".box3",{
+},"darshan").to(".box3",{
     x: 1200,
     duration: 1.3,
     ease: "power4.out",
-}).to(".box4",{
+},"+=0.5").to(".box4",{
     x: 1200,
     duration: 1.3,
     ease: "power4.out",
-
-})
+},"darshan+=0.2")
